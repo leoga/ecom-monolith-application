@@ -82,6 +82,6 @@ public class UserService {
             user.getAddress().setState(userRequest.getAddress().getState());
             user.getAddress().setCountry(userRequest.getAddress().getCountry());
             user.getAddress().setZipcode(userRequest.getAddress().getZipcode());
-        };
+        }
     }
 }

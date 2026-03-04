@@ -15,6 +15,7 @@ RESTful API for e-commerce management with users, products, shopping cart, and o
 
 ---
 
+<a name="users"></a>
 ## 👥 Users
 
 ### Get All Users
@@ -154,6 +155,7 @@ DELETE /api/users/{id}
 
 ---
 
+<a name="products"></a>
 ## 🛍️ Products
 
 ### Get All Products
@@ -300,6 +302,7 @@ GET /api/products/search?keyword=iPhone
 
 ---
 
+<a name="shopping-cart"></a>
 ## 🛒 Shopping Cart
 
 **Note**: All cart endpoints require the `X-User-ID` header with the user's ID.
@@ -399,6 +402,7 @@ DELETE /api/cart/items/1
 
 ---
 
+<a name="orders"></a>
 ## 📦 Orders
 
 **Note**: Order endpoints require the `X-User-ID` header with the user's ID.
