@@ -16,7 +16,7 @@ Monolithic e-commerce application built with **Spring Boot 4.0.3** and **Java 25
 ## 📋 Prerequisites
 
 - Docker and Docker Compose
-- Java 21 (for local development)
+- Java 25 (for local development)
 - Maven 3.x (for local development)
 
 ## 🐳 Installation and Execution with Docker
