@@ -24,7 +24,7 @@ Monolithic e-commerce application built with **Spring Boot 4.0.3** and **Java 25
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd ecom-application
+cd ecom-monolith-application
 ```
 
 2. Start services with Docker Compose:
