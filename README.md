@@ -16,7 +16,7 @@ Monolithic e-commerce application built with **Spring Boot 4.0.3** and **Java 25
 ## 📋 Prerequisites
 
 - Docker and Docker Compose
-- Java 21 (for local development)
+- Java 25 (for local development)
 - Maven 3.x (for local development)
 
 ## 🐳 Installation and Execution with Docker
@@ -24,7 +24,7 @@ Monolithic e-commerce application built with **Spring Boot 4.0.3** and **Java 25
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd ecom-application
+cd ecom-monolith-application
 ```
 
 2. Start services with Docker Compose:
