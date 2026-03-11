@@ -42,7 +42,7 @@ public class CartItemService {
         if (null != existingCartItem) {
             // Update the quantity and price
             existingCartItem.setQuantity(existingCartItem.getQuantity() + cartItemRequest.getQuantity());
-            existingCartItem.setPrice(existingCartItem.getPrice().multiply(BigDecimal.valueOf(existingCartItem.getQuantity())));
+            existingCartItem.setPrice(productOpt.get().getPrice().multiply(BigDecimal.valueOf(existingCartItem.getQuantity())));
             cartItemRepository.save(existingCartItem);
         } else {
             // Create a new cart item
